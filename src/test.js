@@ -1,5 +1,5 @@
-import * as resolve from 'resolve.exports';
-import { readFile } from 'fs';
+const resolve = require('resolve.exports');
+const { readFile } = require('fs');
 
 readFile('package.json', 'utf-8', (err, data) => {
   if (err) {

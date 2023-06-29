@@ -4,7 +4,8 @@
   "description": "The TS types for replit-svelte.",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
+    "src",
+    "!src/test.js",
     "README.md"
   ],
   "exports": {

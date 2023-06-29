@@ -1,5 +1,5 @@
-run = "rm -rf dist/* && tsc"
-entrypoint = "index.ts"
+run = "npm run test" # "rm -rf dist/* && tsc"
+entrypoint = "src/index.d.ts"
 hidden = [".config", "package-lock.json"]
 
 [packager]
