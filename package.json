@@ -16,7 +16,9 @@
       }
     }
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node src/test.js"
+  },
   "keywords": [
     "replit",
     "svelte",
