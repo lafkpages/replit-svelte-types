@@ -2,8 +2,6 @@
   "name": "@replit-svelte/types",
   "version": "1.0.3",
   "description": "The TS types for replit-svelte.",
-  "type": "module",
-  "main": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
