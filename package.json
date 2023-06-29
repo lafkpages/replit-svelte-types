@@ -1,0 +1,32 @@
+{
+  "name": "@replit-svelte/types",
+  "version": "1.0.1",
+  "description": "The TS types for replit-svelte.",
+  "type": "module",
+  "main": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "dist/index.d.ts"
+      }
+    }
+  },
+  "scripts": {},
+  "keywords": [
+    "replit",
+    "svelte",
+    "types",
+    "typescript"
+  ],
+  "author": "LuisAFK <soy.lafk+npm@gmail.com> (https://luisafk.repl.co)",
+  "contributors": [
+    "Avery <bddy@bddy.lol> (https://bddy.lol)"
+  ],
+  "peerDependencies": {
+    "svelte": "^3.59.2"
+  }
+}
