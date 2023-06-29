@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "The TS types for replit-svelte.",
   "types": "index.d.ts",
+  "type": "module",
   "files": [
     "index.js",
     "index.d.ts",
