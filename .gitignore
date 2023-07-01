@@ -2,4 +2,4 @@
 .cache
 .upm
 node_modules
-dist
+index.d.ts
