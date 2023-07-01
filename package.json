@@ -1,9 +1,10 @@
 {
   "name": "@replit-svelte/types",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "The TS types for replit-svelte.",
   "types": "index.d.ts",
   "type": "module",
+  "main": "index.ts",
   "files": [
     "index.ts",
     "index.d.ts",
