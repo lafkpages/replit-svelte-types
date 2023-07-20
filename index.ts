@@ -200,3 +200,10 @@ export type Autocomplete =
   | 'photo';
 
 export type ButtonType = 'button' | 'submit' | 'reset';
+
+export interface File {
+  name: string;
+  contents?: string | File[];
+  folder?: boolean;
+  expanded?: boolean;
+}
