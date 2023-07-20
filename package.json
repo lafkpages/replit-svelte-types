@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "test": "node test.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build": "tsc"
   },
   "keywords": [
     "replit",
