@@ -1,0 +1,15 @@
+{
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": ".replit",
+      "options": {
+        "parser": "toml"
+      }
+    }
+  ]
+}
