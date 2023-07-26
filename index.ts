@@ -103,14 +103,14 @@ export interface Toast {
 export type ToastEvent = CustomEvent<Toast>;
 
 export type SelectOption = {
-  value: string;
   disabled?: boolean;
-  selected?: boolean;
-  href?: string;
+  title: string;
+  value: string;
 };
 
-export type SelectOptions = {
-  [key: string]: SelectOption;
+export type SelectOptionInternal = SelectOption & {
+  href?: string;
+  selected?: boolean;
 };
 
 export type HTMLElementEvent<T extends HTMLElement> = Event & {
