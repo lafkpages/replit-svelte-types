@@ -106,12 +106,11 @@ export type SelectOption = {
   disabled?: boolean;
   title: string;
   value: string;
+  href?: string;
 };
 
 export type SelectOptionInternal = SelectOption & {
   hover?: boolean;
-  href?: string;
-  selected?: boolean;
 };
 
 export type HTMLElementEvent<T extends HTMLElement> = Event & {
