@@ -109,6 +109,7 @@ export type SelectOption = {
 };
 
 export type SelectOptionInternal = SelectOption & {
+  hover?: boolean;
   href?: string;
   selected?: boolean;
 };
