@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@replit-svelte/ui':
+    specifier: ^1.2.0
+    version: 1.2.0(svelte@3.59.2)
   svelte:
     specifier: ^3.59.2
     version: 3.59.2
@@ -18,6 +21,32 @@ devDependencies:
     version: 2.0.2
 
 packages:
+
+  /@replit-svelte/types@1.3.1(svelte@3.59.2):
+    resolution: {integrity: sha512-JBTekJFWIfUd9bCL65RQHsTXep+x2xKleo5iRtxD7zUlWo4psMT3FB8YMNxR8x+6ckprhrpu9LB9oz+Qi9prAQ==}
+    peerDependencies:
+      svelte: ^3.59.2
+    dependencies:
+      svelte: 3.59.2
+    dev: false
+
+  /@replit-svelte/ui@1.2.0(svelte@3.59.2):
+    resolution: {integrity: sha512-o0g/OFQZYslpMudyP0f3+xQaytWNwxfZKJ4GM9VRDeG/5+oaS+C5ot4u6jGeQC9JwCujgJpfPhlfRlmQRprOtg==}
+    peerDependencies:
+      svelte: ^3.59.1
+    dependencies:
+      '@replit-svelte/types': 1.3.1(svelte@3.59.2)
+      '@replit-svelte/utils': 1.1.2(svelte@3.59.2)
+      svelte: 3.59.2
+    dev: false
+
+  /@replit-svelte/utils@1.1.2(svelte@3.59.2):
+    resolution: {integrity: sha512-Wq5f6csySugXOUtpu25Sed15DRfmV63yD7/4CBOuZpbwetDAsXvvHZ250coQfkGL7ZJXe5LzZv4qkm/LVbWWqw==}
+    peerDependencies:
+      svelte: ^3.59.2
+    dependencies:
+      svelte: 3.59.2
+    dev: false
 
   /prettier@3.0.0:
     resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}

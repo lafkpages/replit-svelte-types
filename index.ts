@@ -1,4 +1,7 @@
-import type { SvelteComponent } from 'svelte';
+import type { ComponentProps, SvelteComponent } from 'svelte';
+
+import type Button from '@replit-svelte/ui/Button.svelte';
+import type Pill from '@replit-svelte/ui/Pill.svelte';
 
 export interface Repl {
   id: string;
@@ -205,3 +208,21 @@ export interface File {
   folder?: boolean;
   expanded?: boolean;
 }
+
+export interface SidebarButton {
+  adminOnly?: boolean;
+  icon?: typeof SvelteComponent;
+  title: string;
+  onClick?: () => void;
+  variant?: ComponentProps<Button>['variant'];
+}
+
+export interface SidebarLink {
+  adminOnly?: boolean;
+  icon?: typeof SvelteComponent;
+  href: string;
+  title: string;
+  pill?: ComponentProps<Pill>;
+}
+
+export type SidebarLinkSimple = Omit<SidebarLink, 'icon' | 'pill'>;

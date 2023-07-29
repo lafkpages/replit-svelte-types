@@ -26,6 +26,7 @@
     "Avery <bddy@bddy.lol> (https://bddy.lol)"
   ],
   "peerDependencies": {
+    "@replit-svelte/ui": "^1.2.0",
     "svelte": "^3.59.2"
   },
   "devDependencies": {
