@@ -103,12 +103,14 @@ export const heights = [
 ] as const;
 export type Height = (typeof heights)[number];
 
-export type Strength =
-  | 'dimmest'
-  | 'dimmer'
-  | 'default'
-  | 'stronger'
-  | 'strongest';
+export const strengths = [
+  'dimmest',
+  'dimmer',
+  'default',
+  'stronger',
+  'strongest'
+] as const;
+export type Strength = (typeof strengths)[number];
 
 export type IconSize = 6 | 12 | 16 | 20 | 24 | 28 | 32 | 48 | 96;
 
