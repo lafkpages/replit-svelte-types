@@ -94,6 +94,15 @@ export type Variant =
   | 'outlined'
   | 'higher';
 
+export type Height = 'root' | 'default' | 'higher' | 'highest' | 'overlay';
+
+export type Strength =
+  | 'dimmest'
+  | 'dimmer'
+  | 'default'
+  | 'stronger'
+  | 'strongest';
+
 export type IconSize = 6 | 12 | 16 | 20 | 24 | 28 | 32 | 48 | 96;
 
 export interface Toast {
