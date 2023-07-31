@@ -94,7 +94,14 @@ export type Variant =
   | 'outlined'
   | 'higher';
 
-export type Height = 'root' | 'default' | 'higher' | 'highest' | 'overlay';
+export const heights = [
+  'root',
+  'default',
+  'higher',
+  'highest',
+  'overlay'
+] as const;
+export type Height = (typeof heights)[number];
 
 export type Strength =
   | 'dimmest'
